@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Unity\\First 2d game (udemy)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\first 2d game (udemy)\\assets\\gatecontrol\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\gatecontrol\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\first 2d game (udemy)\\assets\\scripts\\management\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\first 2d game (udemy)\\assets\\scripts\\player\\deathability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\deathability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gate.cs",
+              "DocumentMoniker": "C:\\Unity\\First 2d game (udemy)\\Assets\\GateControl\\Gate.cs",
+              "RelativeDocumentMoniker": "Assets\\GateControl\\Gate.cs",
+              "ToolTip": "C:\\Unity\\First 2d game (udemy)\\Assets\\GateControl\\Gate.cs",
+              "RelativeToolTip": "Assets\\GateControl\\Gate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:08:49.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Unity\\First 2d game (udemy)\\Assets\\Scripts\\Management\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\LevelManager.cs",
+              "ToolTip": "C:\\Unity\\First 2d game (udemy)\\Assets\\Scripts\\Management\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\LevelManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T08:23:03.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeathAbility.cs",
+              "DocumentMoniker": "C:\\Unity\\First 2d game (udemy)\\Assets\\Scripts\\Player\\DeathAbility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\DeathAbility.cs",
+              "ToolTip": "C:\\Unity\\First 2d game (udemy)\\Assets\\Scripts\\Player\\DeathAbility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\DeathAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:08:31.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
