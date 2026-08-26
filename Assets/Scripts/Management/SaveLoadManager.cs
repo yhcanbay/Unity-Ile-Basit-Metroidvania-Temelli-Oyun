@@ -8,6 +8,9 @@ public class SaveLoadManager : MonoBehaviour
     public string folderName = "SaveFiles";
     public string fileName = "SpawnPoint.json";
 
+    [Header("CheckPoint")]
+    public string fileCheckPoint = "CheckPoint.json";
+
     private void Awake()
     {
         if(instance == null)
@@ -35,6 +38,24 @@ public class SaveLoadManager : MonoBehaviour
         {
             string loadDataString = File.ReadAllText(loadPath);
             JsonUtility.FromJsonOverwrite(loadDataString, data);
+        }
+    }
+
+    public void DeleteData(string folderName, string fileName)
+    {
+        string deletePath = Path.Combine(Application.persistentDataPath, folderName, fileName);
+        if (File.Exists(deletePath))
+        {
+            File.Delete(deletePath);
+        }
+    }
+
+    public void DeleteFolder(string folderName)
+    {
+        string folderPath = Path.Combine(Application.persistentDataPath, folderName);
+        if (Directory.Exists(folderPath))
+        {
+            Directory.Delete(folderPath);
         }
     }
 

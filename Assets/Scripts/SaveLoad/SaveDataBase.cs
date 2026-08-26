@@ -19,3 +19,17 @@ public class SpawnData
         facingRight = true;
     }
 }
+[Serializable]
+public class CheckpointData
+{
+    public string scheneToLoad;
+    public string checkPointKey;
+    public bool facingRight;
+
+    public CheckpointData()
+    {
+        scheneToLoad = "Level1";
+        checkPointKey = "Check1";
+        facingRight= true;
+    }
+}

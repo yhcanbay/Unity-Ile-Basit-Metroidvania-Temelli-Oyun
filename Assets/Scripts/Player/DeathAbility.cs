@@ -13,6 +13,7 @@ public class DeathAbility : BaseAbility
 
     public override void EnterAbility()
     {
+        SpawnMode.spawnFromCheckpoint = true;
         linkedPhysicsControl.ResetVelocity();
         linkedInput.DisablePlayerMap();
     }

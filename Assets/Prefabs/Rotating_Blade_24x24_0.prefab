@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotatingBlade
   rotatingSpeed: -180
-  bladeDamage: 10
+  bladeDamage: 2
   knockbackDuration: 0.3
   knockbackForce: {x: 5, y: 0}
 --- !u!60 &4000063739368625634
