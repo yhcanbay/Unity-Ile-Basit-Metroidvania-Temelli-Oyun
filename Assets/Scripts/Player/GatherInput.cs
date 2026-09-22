@@ -12,6 +12,7 @@ public class GatherInput : MonoBehaviour
     public InputActionReference moveActionRef;
     public InputActionReference dashActionRef;
     public InputActionReference ladderActionRef;
+    public InputActionReference interactActionRef;
     [HideInInspector]
     public float horizontalInput;
     [HideInInspector]
