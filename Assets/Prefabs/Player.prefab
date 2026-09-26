@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2264363544149439926}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.277, y: -1.017, z: 0}
+  m_LocalPosition: {x: 0.277, y: -1.035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 3835987163699634997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.437, y: -1.017, z: 0}
+  m_LocalPosition: {x: -0.437, y: -1.029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 1907810843630467949}
   - component: {fileID: 1760019415459402335}
   - component: {fileID: 985700860940454782}
+  - component: {fileID: 6530566368095268802}
   - component: {fileID: 1835157198531857828}
   - component: {fileID: 6880581036768442261}
   m_Layer: 7
@@ -527,6 +528,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   grounded: 0
+  interpolation: 1
+  extrapolate: 2
   wallRayDistance: 0.05
   upperWallPoint: {fileID: 2741800499769567185}
   lowerWallPoint: {fileID: 2942211805990900392}
@@ -740,6 +743,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IdleAbility
   thisAbilityState: 0
   isPermitted: 1
+--- !u!114 &6530566368095268802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5511653205919492349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6692471cfd4810049a80d89c1e20cf87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractAbility
+  interactActionRef: {fileID: 1297570262137724019, guid: 035e7b166350d464da1d9bdcfc5312ea, type: 3}
+  activeCheckpoint: {fileID: 0}
 --- !u!114 &1835157198531857828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,6 +786,7 @@ MonoBehaviour:
   moveActionRef: {fileID: 2589861564112069157, guid: 035e7b166350d464da1d9bdcfc5312ea, type: 3}
   dashActionRef: {fileID: 4257715924172798657, guid: 035e7b166350d464da1d9bdcfc5312ea, type: 3}
   ladderActionRef: {fileID: 209876291817275694, guid: 035e7b166350d464da1d9bdcfc5312ea, type: 3}
+  interactActionRef: {fileID: 0}
   horizontalInput: 0
   verticalInput: 0
 --- !u!95 &6880581036768442261

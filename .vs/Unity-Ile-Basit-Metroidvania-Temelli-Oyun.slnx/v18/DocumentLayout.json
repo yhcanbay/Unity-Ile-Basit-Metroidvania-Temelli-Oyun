@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\spawnstaff\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnstaff\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\physicscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\physicscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\dashability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\dashability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\platforms\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\spawnstaff\\spawncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnstaff\\spawncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\knockbackability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\knockbackability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\moveability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\moveability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\traps\\spikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\traps\\spikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\idleability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\idleability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\yaz\u0131l\u0131m\\unity_projects\\unity-ile-basit-metroidvania-temelli-oyun\\assets\\scripts\\player\\gatherinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,45 +46,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GatherInput.cs",
-              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\GatherInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\GatherInput.cs",
-              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\GatherInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\GatherInput.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IdleAbility.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\IdleAbility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\IdleAbility.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\IdleAbility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\IdleAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T14:43:25.41Z",
+              "WhenOpened": "2026-09-24T15:01:16.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KnockbackAbility.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\KnockbackAbility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\KnockbackAbility.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\KnockbackAbility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\KnockbackAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:14:02.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Spikes.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Traps\\Spikes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Traps\\Spikes.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Traps\\Spikes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Traps\\Spikes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:13:54.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpawnControl.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\SpawnStaff\\SpawnControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnStaff\\SpawnControl.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\SpawnStaff\\SpawnControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnStaff\\SpawnControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:10:59.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoveAbility.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\MoveAbility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveAbility.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\MoveAbility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:10:40.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovingPlatform.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Platforms\\MovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\MovingPlatform.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Platforms\\MovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Platforms\\MovingPlatform.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:02:18.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DashAbility.cs",
-              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\DashAbility.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\DashAbility.cs",
-              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\DashAbility.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\DashAbility.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T14:42:35.029Z",
+              "WhenOpened": "2026-09-24T15:01:52.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CheckPoint.cs",
-              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\SpawnStaff\\CheckPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnStaff\\CheckPoint.cs",
-              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\SpawnStaff\\CheckPoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnStaff\\CheckPoint.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "GatherInput.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\GatherInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\GatherInput.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\GatherInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\GatherInput.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T12:04:20.565Z",
+              "WhenOpened": "2026-09-24T15:01:16.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhysicsControl.cs",
+              "DocumentMoniker": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\PhysicsControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PhysicsControl.cs",
+              "ToolTip": "C:\\Yaz\u0131l\u0131m\\Unity_Projects\\Unity-Ile-Basit-Metroidvania-Temelli-Oyun\\Assets\\Scripts\\Player\\PhysicsControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PhysicsControl.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv0gAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T15:00:58.251Z",
               "EditorCaption": ""
             }
           ]

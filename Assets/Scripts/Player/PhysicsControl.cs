@@ -16,6 +16,10 @@ public class PhysicsControl : MonoBehaviour
     
     public bool grounded;
 
+    [Header("Interpolation")]
+    [SerializeField] private RigidbodyInterpolation2D interpolation;
+    [SerializeField] private RigidbodyInterpolation2D extrapolate;
+
     private RaycastHit2D hitIntoLeft;
     private RaycastHit2D hitIntoRight;
 
@@ -61,10 +65,12 @@ public class PhysicsControl : MonoBehaviour
         hitIntoLeft = Physics2D.Raycast(leftGroundPoint.position, Vector2.down, groundRayDistance, whatToDetect);
         hitIntoRight = Physics2D.Raycast(rightGroundPoint.position, Vector2.down, groundRayDistance, whatToDetect);
 
+        bool isOnMovingPlatform = transform.parent != null && transform.parent.CompareTag("MovingPlatform");
+
         Debug.DrawRay(leftGroundPoint.position, new Vector3(0, -groundRayDistance, 0), Color.red);
         Debug.DrawRay(rightGroundPoint.position, new Vector3(0, -groundRayDistance, 0), Color.red);
 
-        if(hitIntoLeft || hitIntoRight)
+        if(hitIntoLeft || hitIntoRight || isOnMovingPlatform)
         {
             return true;
         }
@@ -114,5 +120,15 @@ public class PhysicsControl : MonoBehaviour
     public void setCanAirDash(bool _canAirDash)
     {
         canAirDash = _canAirDash;
+    }
+
+    public void setInterpolate()
+    {
+        
+    }
+
+    public void setExtrapolate()
+    {
+
     }
 }
