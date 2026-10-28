@@ -9,6 +9,7 @@
 [Mm]emoryCaptures/
 
 # IDE ve derleme dosyaları (VS, Rider, VS Code)
+/.vs/
 *.csproj
 *.unityproj
 *.sln

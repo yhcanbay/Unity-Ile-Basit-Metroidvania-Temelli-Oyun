@@ -11,6 +11,9 @@ public class SaveLoadManager : MonoBehaviour
     [Header("CheckPoint")]
     public string fileCheckPoint = "CheckPoint.json";
 
+    [Header("Minimap")]
+    public string fileMinimapData = "MinimapData.json";
+
     private void Awake()
     {
         if(instance == null)

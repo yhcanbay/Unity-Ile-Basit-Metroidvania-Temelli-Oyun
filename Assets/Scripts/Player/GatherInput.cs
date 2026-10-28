@@ -5,8 +5,10 @@ public class GatherInput : MonoBehaviour
 {
     public PlayerInput playerInput;
 
-    public InputActionMap playerMap;
-    public InputActionMap uiMap;
+    private InputActionMap playerMap;
+    private InputActionMap uiMap;
+    private InputActionMap minimapControlsMap;
+    private InputActionMap activatorMap;
 
     public InputActionReference jumpActionRef;
     public InputActionReference moveActionRef;
@@ -31,7 +33,10 @@ public class GatherInput : MonoBehaviour
     void Start()
     {
         playerMap = playerInput.actions.FindActionMap("Player");
+        minimapControlsMap = playerInput.actions.FindActionMap("MinimapControls");
+        activatorMap = playerInput.actions.FindActionMap("Activators");
         playerMap.Enable();
+        activatorMap.Enable();
     }
     // Update is called once per frame
     void Update()
@@ -44,5 +49,17 @@ public class GatherInput : MonoBehaviour
     public void DisablePlayerMap()
     {
         playerMap.Disable();
+    }
+    public void EnablePlayerMap()
+    {
+        playerMap.Enable();
+    }
+    public void EnableMinimapControlsMap()
+    {
+        minimapControlsMap.Enable();
+    }
+    public void DisableMinimapControlsMap()
+    {
+        minimapControlsMap.Disable();
     }
 }

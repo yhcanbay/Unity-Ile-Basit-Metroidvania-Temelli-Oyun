@@ -72,10 +72,21 @@ public class JumpAbility : BaseAbility
         {
             return;
         }
+        if (linkedStateMachine.currentState == PlayerStates.State.Crouch && 
+            linkedPhysicsControl.grounded &&
+            linkedPhysicsControl.TryDropThrough())
+        {
+            linkedStateMachine.ChangeState(PlayerStates.State.Jump);
+
+            minimumAirTime = startMinimumAirTime;
+            linkedPhysicsControl.coyoteTimer = -1;
+
+            return;
+        }
         if (linkedPhysicsControl.coyoteTimer >= 0)
         {
             linkedStateMachine.ChangeState(PlayerStates.State.Jump);
-            linkedPhysicsControl.rb.linearVelocity = new Vector2(airspeed * linkedInput.horizontalInput,jumpForce);
+            linkedPhysicsControl.rb.linearVelocity = new Vector2(airspeed * linkedInput.horizontalInput, jumpForce);
             minimumAirTime = startMinimumAirTime;
             linkedPhysicsControl.coyoteTimer = -1;
         }

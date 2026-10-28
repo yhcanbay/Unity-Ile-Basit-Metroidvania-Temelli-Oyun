@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PhysicsControl : MonoBehaviour
@@ -130,5 +133,34 @@ public class PhysicsControl : MonoBehaviour
     public void setExtrapolate()
     {
 
+    }
+
+    public bool TryDropThrough()
+    {
+        Collider2D collider;
+        if (hitIntoLeft.collider.CompareTag("OneWayPlatform"))
+        {
+            collider = hitIntoLeft.collider;
+            StartCoroutine(disableOneWayCollider(collider));
+        }else if (hitIntoRight.collider.CompareTag("OneWayPlatform")){
+            collider = hitIntoRight.collider;
+            StartCoroutine(disableOneWayCollider(collider));
+        }
+        else
+        {
+            return false;
+        }
+        return true;
+    }
+
+    private IEnumerator disableOneWayCollider(Collider2D platformCollider)
+    {
+        Physics2D.IgnoreCollision(crouchCollider, platformCollider, true);
+        Physics2D.IgnoreCollision(standingCollider, platformCollider, true);
+
+        yield return new WaitForSeconds(1.0f);
+
+        Physics2D.IgnoreCollision(crouchCollider, platformCollider, false);
+        Physics2D.IgnoreCollision(standingCollider, platformCollider, false);
     }
 }

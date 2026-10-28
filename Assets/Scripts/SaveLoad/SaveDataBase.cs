@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
@@ -31,5 +33,19 @@ public class CheckpointData
         scheneToLoad = "Level1";
         checkPointKey = "Check1";
         facingRight= true;
+    }
+}
+[Serializable]
+public class MinimapData
+{
+    public List<string> mapKeys = new();
+
+    public void AddToListWithCheck(string keyToAdd)
+    {
+        if (mapKeys.Contains(keyToAdd))
+        {
+            return;
+        }
+        mapKeys.Add(keyToAdd);
     }
 }
