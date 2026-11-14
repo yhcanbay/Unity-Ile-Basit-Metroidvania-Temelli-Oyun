@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class Weapon : MonoBehaviour
+{
+    public string ID;
+    public ItemTypes itemType;
+    public float damage;
+    public float shootCooldown;
+    public bool isAutomatic;
+
+    [Header("Ammo")]
+    public int currentAmmo;
+    public int maxAmmo;
+    public int storageAmmo;
+
+    [Header("Referances")]
+    public Transform shootingPoint;
+    public Transform shellSpawnPoint;
+    public GameObject shellPrefab;
+    public Sprite weaponIconSprite;
+
+    public float visibleLineTime;
+
+}
